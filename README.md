@@ -12,7 +12,7 @@ This is a React-based web application showcasing the town of **Shrirampur**, loc
 
 Here is a preview of the Shrirampur website's frontend:
 
-![UI Screenshot](./src/imgs/ui-screenshot.png)
+![UI Screenshot](./imgs/Screenshot%20(11).png)
 
 ## Technologies Used
 
