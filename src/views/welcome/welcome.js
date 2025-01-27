@@ -58,9 +58,10 @@ function Welcometoshriram(){
         
 }
 
-export default Welcometoshriram;*/}
-import Headersec from "./headersec";
+export default Welcometoshriram;
+
 import React from "react";
+import Headersec from "./../header/headersec";
 
 function Welcometoshriram() {
   return (
@@ -103,6 +104,31 @@ function Welcometoshriram() {
               Learn More
             </a>
           </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Welcometoshriram;
+*/}
+import React from "react";
+import Headersec from "./../header/headersec";
+
+function Welcometoshriram() {
+  return (
+    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+      <div className="w-full sm:w-4/5 md:w-3/5 lg:w-2/5 h-auto bg-pink-50 mt-10 mb-10 shadow-xl shadow-gray-700 rounded-lg p-5">
+        
+        <Headersec />
+        <hr className="border-t-2 border-gray-500 shadow-xl shadow-gray-800 my-4" />
+
+        <div className="mt-6">
+          <p className="text-center font-serif text-blue-600 text-[24px] sm:text-[30px]">
+            Welcome To
+          </p>
+          <p className="text-center font-serif text-blue-600 text-[28px] sm:text-[35px] font-bold bg-pink-100">
+          </p>
         </div>
       </div>
     </div>
