@@ -61,7 +61,7 @@ function Welcometoshriram(){
 export default Welcometoshriram;
 */}
 import React from "react";
-import Headersec from "./../header/headersec";
+import Headersec from "./../component/header/headersec";
 
 function Welcometoshriram() {
   return (
